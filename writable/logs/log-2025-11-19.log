@@ -1,0 +1,66 @@
+CRITICAL - 2025-11-19 12:56:07 --> Undefined index: HTTP_USER_AGENT
+#0 /home/aalyanza/panel.aalyan.za.com/app/Views/Auth/login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/aalyanza/...', 36, Array)
+#1 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/aalyanza/...')
+#2 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/aalyanza/panel.aalyan.za.com/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#5 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/aalyanza/panel.aalyan.za.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-11-19 12:56:07 --> Undefined index: HTTP_USER_AGENT
+#0 /home/aalyanza/panel.aalyan.za.com/app/Views/Auth/login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/aalyanza/...', 36, Array)
+#1 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/aalyanza/...')
+#2 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/aalyanza/panel.aalyan.za.com/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#5 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/aalyanza/panel.aalyan.za.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-11-19 12:56:07 --> Undefined index: HTTP_USER_AGENT
+#0 /home/aalyanza/panel.aalyan.za.com/app/Views/Auth/login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/aalyanza/...', 36, Array)
+#1 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/aalyanza/...')
+#2 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/aalyanza/panel.aalyan.za.com/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#5 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/aalyanza/panel.aalyan.za.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-11-19 12:58:20 --> Argument 1 passed to form_open() must be of the type string, array given, called in /home/aalyanza/panel.aalyan.za.com/app/Views/Auth/login.php on line 175
+#0 /home/aalyanza/panel.aalyan.za.com/app/Views/Auth/login.php(175): form_open(Array)
+#1 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/aalyanza/...')
+#2 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/aalyanza/panel.aalyan.za.com/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#5 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/aalyanza/panel.aalyan.za.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-11-19 12:58:21 --> Argument 1 passed to form_open() must be of the type string, array given, called in /home/aalyanza/panel.aalyan.za.com/app/Views/Auth/login.php on line 175
+#0 /home/aalyanza/panel.aalyan.za.com/app/Views/Auth/login.php(175): form_open(Array)
+#1 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/aalyanza/...')
+#2 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/aalyanza/panel.aalyan.za.com/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#5 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/aalyanza/panel.aalyan.za.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-11-19 13:00:19 --> Undefined index: HTTP_USER_AGENT
+#0 /home/aalyanza/panel.aalyan.za.com/app/Views/Auth/login.php(230): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/aalyanza/...', 230, Array)
+#1 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/aalyanza/...')
+#2 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('Auth/login', Array, true)
+#4 /home/aalyanza/panel.aalyan.za.com/app/Controllers/Auth.php(54): view('Auth/login', Array)
+#5 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 /home/aalyanza/panel.aalyan.za.com/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/aalyanza/panel.aalyan.za.com/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
